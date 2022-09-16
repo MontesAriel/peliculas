@@ -9601,7 +9601,7 @@ jQuery.ajaxTransport( "script", function( s ) {
 					charset: s.scriptCharset,
 					src: s.url
 				} ).on(
-					"load error",
+					"load errore",
 					callback = function( evt ) {
 						script.remove();
 						callback = null;
